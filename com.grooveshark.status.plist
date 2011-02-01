@@ -8,7 +8,7 @@
 	<array>
 		<string>/usr/bin/env</string>
 		<string>ruby</string>
-		<string>/Users/kerberoS/Library/Grooveshark/script.rb</string>
+		<string>/Users/kerberoS/Documents/Grooveshark/script.rb</string>
 	</array>
 	<key>RunAtLoad</key>
 	<false/>
