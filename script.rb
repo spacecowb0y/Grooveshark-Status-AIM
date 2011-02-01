@@ -2,7 +2,7 @@
 # Diego A. Peralta <diego@bahiastudio.net> 
 # http://www.bahiastudio.net/
 
-f = File.expand_path("~#{ENV['USER']}/Documents/Grooveshark/currentSong.txt")
+f = File.expand_path("~/Documents/Grooveshark/currentSong.txt")
 
 if File.exists?(f) && File.size(f) > 0
   content = File.open(f, 'r')
@@ -19,4 +19,3 @@ if File.exists?(f) && File.size(f) > 0
     IO.popen("osascript", "w") { |f| f.puts(script) }
   end
 end
-

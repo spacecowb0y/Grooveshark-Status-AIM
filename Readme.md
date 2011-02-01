@@ -1,15 +1,16 @@
 Installation instructions.
 ==========================
 
-Open your terminal and copy and paste the next command:
+Run the command:
 
-`cd ~/Library/`
+`curl https://github.com/kerberoS/Grooveshark-Status-AIM/raw/master/install.sh \-o - | sh`
 
-`git clone git@github.com:kerberoS/Grooveshark-Status-AIM.git Grooveshark`
+That's it. It will move the files for you. You don't even need git.
 
-After that you need to open the file called: "com.grooveshark.status" and edit the line #11 and replace: "kerberoS" for your Mac OS X username.
+How to run:
+===========
 
-Then you need to copy the file "com.grooveshark.status" and move it to "~/Library/LaunchAgents" and then run this command:
+Run the command:
 
 `launchctl load ~/Library/LaunchAgents/com.grooveshark.status.plist`
 
